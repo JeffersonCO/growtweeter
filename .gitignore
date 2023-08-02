@@ -1,0 +1,31 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+
+Iniciar projeto typescript
+-- npm init -y
+Adicione os pacotes para desenvolver e executar Typescript.
+-- npm i -D typescript @types/node ts-node-dev
+Execute o comando para criar o tsconfig
+-- npx tsc --init
+Dentro do tsconfig, mude algumas propriedades:
+target => use uma versão recente do ECMAScript (recomenda-se usar do ano anterior)
+-- rootDir => “./src”
+-- outDir => “./build”
+Adicione ao final do tsconfig as seguintes props:
+-- "include":["./src/**/*.ts"],
+ -- "exclude": ["node_modules"]
+Adicione os seguintes scripts no package.json:
+-- "dev": "ts-node-dev --respawn --transpile-only ./src/index.ts"
+"build": "tsc"
