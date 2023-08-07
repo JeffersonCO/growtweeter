@@ -1,7 +1,7 @@
 {
   "name": "growtweeter",
   "version": "1.0.0",
-  "description": "",
+  "description": "![logo_growdev](https://github.com/cadonaenrike/GrowTwitter/assets/95323804/6d0ede58-ee26-44d8-95f7-76011819b04f)",
   "main": "index.js",
   "scripts": {
     "dev": "ts-node-dev --respawn --transpile-only ./src/index.ts",

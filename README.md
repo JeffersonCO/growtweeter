@@ -15,27 +15,7 @@ GrowTwitter é uma aplicação de rede social, similar ao Twitter, desenvolvida 
 - Likes e replies em tweets
 
 
+## Rodar o projeto comand npm RunDev
 
-## Instalação
-
-1. Clone o repositório para sua máquina local:
-
-```
-git clone https://github.com/seu-usuario/grow-twitter.git
-```
-
-2. Instale as dependências do projeto:
-
-```
-npm install
-```
-
-3. Execute a aplicação:
-
-```
-npm start
-```
-
+-  comand npm rundev
 ---
-
-Sinta-se à vontade para atualizar e personalizar o README de acordo com as necessidades do seu projeto. Lembre-se de incluir informações relevantes e detalhadas sobre o projeto e sua arquitetura para que outros desenvolvedores possam utilizá-lo facilmente. Boa sorte com o GrowTwitter! 🚀✨
